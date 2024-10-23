@@ -1,0 +1,106 @@
+body {
+    background-color: #e0f7fa; /* Fondo atractivo */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 60px; /* Título más grande */
+    color: #4a90e2; /* Color azul atractivo */
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3), 0 0 25px #f0ad4e; /* Sombra para efecto 3D e iluminación */
+    font-weight: bold;
+}
+
+.flash-messages {
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.alert {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #fff; /* Texto blanco */
+}
+
+.alert.success {
+    background-color: #28a745; /* Verde */
+}
+
+.alert.error {
+    background-color: #dc3545; /* Rojo */
+}
+
+.alert.info {
+    background-color: #17a2b8; /* Cian */
+}
+
+.product-form {
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.product-form input {
+    width: calc(100% - 22px); /* Ajustar ancho */
+    padding: 15px; /* Mayor padding */
+    margin: 10px 0; /* Mayor margen */
+    border: 2px solid #4a90e2; /* Borde azul atractivo */
+    border-radius: 5px;
+    font-size: 16px; /* Texto más grande */
+}
+
+.btn-submit, .btn-add, .btn-delete {
+    background-color: #4a90e2; /* Azul atractivo */
+    color: #fff; /* Texto blanco */
+    padding: 15px 20px; /* Mayor padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Sin subrayado para enlaces */
+    display: inline-block;
+    font-size: 18px; /* Texto más grande */
+}
+
+.btn-submit:hover, .btn-add:hover, .btn-delete:hover {
+    background-color: #357ab8; /* Azul oscuro al pasar el ratón */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra al pasar el ratón */
+}
+
+.container {
+    background-color: #ffffff; /* Fondo blanco para la tabla */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px; /* Mayor padding */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px; /* Texto más grande */
+}
+
+th {
+    background-color: #4a90e2; /* Azul atractivo */
+    color: white; /* Texto blanco */
+    font-size: 18px; /* Texto más grande para los encabezados */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Color al pasar el ratón */
+}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<form method="POST" action="{{ url_for('add_product') }}" class="product-form">
+    <input type="text" name="name" placeholder="Nombre del Producto" required>
+    <input type="number" name="quantity" placeholder="Cantidad" required>
+    <input type="text" name="price" placeholder="Precio" required>
+    <input type="date" name="expiry_date" placeholder="Fecha de Vencimiento" required>
+    <input type="text" name="category" placeholder="Categoría" required>
+    <button type="submit" class="btn-submit">Guardar Producto</button>
+</form>
+{% endblock %}
